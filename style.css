@@ -23,6 +23,7 @@ body {
     justify-content: center;
     background: url('./images/pattern-background-mobile.svg') no-repeat;
     background-color: var(--cor-primaria-1);
+    background-size: contain;
 }
 
 img {
@@ -30,6 +31,72 @@ img {
     display: block;
 }
 
+.cartao {
+    margin: 20rem;
+    background: #ffffff;
+    border-radius: 15rem;
+    max-width: 310rem;
+}
+
+.cartao-imagem img {
+    border-radius: 15rem 15rem 0 0;
+}
+
+.cartao-conteudo {
+    padding: 30rem 20rem;
+    display: grid;
+    gap: 20rem;
+    justify-items: center;
+}
+
+.cartao-titulo {
+    color: var(--cor-neutra-3);
+}
+
+.cartao-conteudo p {
+    color: var(--cor-neutra-2);
+    text-align: center;
+}
+
+.cartao-plano {
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+    width: 100%;
+    background: var(--cor-neutra-1);
+    padding: 10rem 15rem;
+    border-radius: 10rem;
+}
+
+.cartao-plano a {
+    margin-left: 15rem;
+    color: var(--cor-primaria-2);
+}
+
+.cartao-plano a:hover {
+    text-decoration: none;
+    color: #766cf1;
+}
+
+.cartao-plano-conteudo h3 {
+    min-width: max-content;
+    color: var(--cor-neutra-3);
+}
+
+.cartao-plano-conteudo span {
+    color: var(--cor-neutra-2);
+}
+
+.cartao-conteudo > a {
+    text-decoration: none;
+    color: var(--cor-neutra-2);
+}
+
+.cartao-conteudo > a:hover {
+    color: var(--cor-neutra-3);
+}
+
+/* Fonte */
 .fonte-primaria-1 {
     font: 900 20rem/1.4 'Red Hat Display';
 }
