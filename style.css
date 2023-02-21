@@ -113,6 +113,12 @@ img {
     background: #766cf1;
 }
 
+@media (min-width: 800px) {
+    body {
+        background-image: url('./images/pattern-background-desktop.svg');
+    }
+}
+
 /* Fonte */
 .fonte-primaria-1 {
     font: 900 20rem/1.4 'Red Hat Display';
