@@ -36,6 +36,7 @@ img {
     background: #ffffff;
     border-radius: 15rem;
     max-width: 310rem;
+    box-shadow: 0 20rem 20rem 0 rgba(0, 0, 0, 0.07);
 }
 
 .cartao-imagem img {
