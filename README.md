@@ -2,6 +2,8 @@
 
 **Nível do projeto: novato - Frontend Mentor**
 
+site - https://costa-rick.github.io/order-summary-component-FrontendMentor
+
 ## Design desktop
 
 ![](./captura-e-design/desktop-design.jpg)
