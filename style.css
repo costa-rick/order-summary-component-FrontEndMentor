@@ -79,7 +79,7 @@ img {
     color: #766cf1;
 }
 
-.cartao-plano-conteudo h3 {
+.cartao-plano-conteudo h2 {
     min-width: max-content;
     color: var(--cor-neutra-3);
 }
